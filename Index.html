@@ -1,67 +1,72 @@
 <html>
-    <head><title>HTMLExecise1 Index</title></head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>HTMLExecise1 Index</title></head>
     <body>
         <header>
             <section><a id="top"></a></section>
             <h1>Index</h1>
             <nav>
                 <ul>
-                    <li><a href="#top">Go to top</a></li>
-                    <li><a href="#bottom">Go to bottom</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Goat">Wikipedia: Goats</a></li>
+                    <li><a href="#top" id="link1">Go to top</a></li>
+                    <li><a href="#bottom" id="link2">Go to bottom</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Goat" id="link3">Wikipedia: Goats</a></li>
                 </ul>
             </nav>
-            <a href="LogIn.html">Log In</a>
+            <a href="LogIn.html" id="linkToOtherPageIndex">Log In</a>
         </header>
         <div>
-            <h2>Animals</h2>
-            <p>It's obvious, but there are different kind of animals.</p>
-            <article>
-                <h3>Goats</h2>
+            <h2 id="animalTitle">Animals</h2>
+            <p id="animalParagraph">It's obvious, but there are different kind of animals.</p>
+            <article id="articleGoat">
+                <h3>Goats</h3>
                 <p>The goat is an interesting and proud animal that does whatever it wants to.</p>
-                <p>They usually have four legs and one tail.</p>
+                <p id="fatParagraph">They usually have four legs and two horns.</p>
                 <picture>
-                    <img src="IMG/goat.png" alt="A zoomed in picture of a goat's face." style="width: 650px;">
+                    <img src="IMG/goat.png" alt="A zoomed in picture of a goat's face." id="img">
                 </picture>
             </article>
-            <article>
+            <article id="articleDolph">
                 <section><a id="middle"></a></section>
                 <h3>Dolphin</h3>
                 <p>A little less interesting animal than the goat, but the dolphin can still surprise.</p>
-                <p>As most can notice, a dolphin doesn't have legs or arms.</p>
+                <p>As most know, a dolphin doesn't have arms or legs.</p>
             </article>
         </div>
         <aside>
-            <h2>Countries and Cities</h2>
-            <ul>
+            <h2 id="asideTitle">Countries and Cities</h2>
+            <ul id="asideList">
                 <li>
                     <h3>Sweden</h3>
                     <ol>
-                        <li><p>Stockholm 2,5M</p></li>
-                        <li><p>Åmål 12,3K</p></li>
-                        <li><p>Vaxholm 11,9K</p></li>
+                        <li id="greenAside"><p>Stockholm 2,5M</p></li>
+                        <li id="redAside"><p>Åmål 12,3K</p></li>
+                        <li id="greenAside"><p>Vaxholm 11,9K</p></li>
                     </ol>
                 </li>
                 <li>
                     <h3>Angola</h3>
                     <ol>
-                        <li><p>Luanda 4,5M</p></li>
-                        <li><p>Matala 263K</p></li>
-                        <li><p>Lobito 208K</p></li>
+                        <li id="greenAside"><p>Luanda 4,5M</p></li>
+                        <li id="redAside"><p>Matala 263K</p></li>
+                        <li id="greenAside"><p>Lobito 208K</p></li>
                     </ol>
                 </li>
                 <li>
                     <section><a id="bottom"></a></section>
                     <h3>Palau</h3>
                     <ol>
-                        <li><p>Koror 14K</p></li>
-                        <li><p>Kloulklubed 700</p></li>
-                        <li><p>Angaur 320</p></li>
+                        <li id="greenAside"><p>Koror 14K</p></li>
+                        <li id="redAside"><p>Kloulklubed 700</p></li>
+                        <li id="greenAside"><p>Angaur 320</p></li>
                     </ol>
                 </li>
             </ul>
         </aside>
-        <footer>
+        <footer id="footer">
             <span>&copy;Julius Büchner</span>
         </footer>
     </body>

@@ -1,31 +1,37 @@
 <html>
-    <head><title>HTMLExercise1 LogIn</title></head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>HTMLExercise1 LogIn</title>
+    </head>
     <body>
         <section><a href="top"></a></section>
-        <header><h1>Log In</h1></header>
+        <header id="uppercase"><h1>Log In</h1></header>
         <nav>
             <ul>
-                <li><a href="#top">Go to top</a></li>
-                <li><a href="#bottom">Go to bottom</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Goat">Wikipedia: Goats</a></li>
+                <li><a href="#top" id="link1LogIn">Go to top</a></li>
+                <li><a href="#bottom" id="link2LogIn">Go to bottom</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Goat" id="link3LogIn">Wikipedia: Goats</a></li>
             </ul>
         </nav>
-        <a href="Index.html">Back to Index</a>
-        <div>
-            <h2>User Login</h2>
-            <form action="#">
+        <a href="Index.html" id="linkToOtherPageLogIn">Back to Index</a>
+        <div id="divLogIn">
+            <h2 id="formTitle">User Login</h2>
+            <form action="#" id="form">
                 <label for="username">Username:</label> <br />
-                <input type="text" name="username" id="username"> <br />
+                <input type="text" name="username" id="username""> <br />
 
                 <label for="password">Password:</label> <br />
-                <input type="password" name="password" id="password"> <br />
+                <input type="password" name="password" id="password""> <br />
 
-                <button type="reset">Reset</button>
+                <button id="buttonR" type="reset">Reset</button>
 
-                <button type="submit">Login</button>
+                <button id="buttonL" type="submit">Login</button>
             </form>
             <section><a href="bottom"></a></section>
         </div>
-        <footer><span>&copy;Julius Büchner</span></footer>
+        <footer id="footer"><span>&copy;Julius Büchner</span></footer>
     </body>
 </html>
